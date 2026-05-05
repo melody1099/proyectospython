@@ -1,0 +1,6 @@
+cadena=input("Ingrese una palabra para identificar las vocales:")
+for caracter in cadena:
+    if caracter=="a" or caracter=="e" or caracter=="i" or caracter=="o" or caracter=="u":
+        print("El caracter ",caracter,"es vocal.")
+    else:
+        print("El caracter ",caracter,"no es vocal.")
