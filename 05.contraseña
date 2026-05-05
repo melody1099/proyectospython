@@ -1,0 +1,5 @@
+contraseña = "melody"
+contraseñaingr= input("Ingrese la contraseña:")
+while contraseñaingr != contraseña:
+    print("Ingrese la contraseña correcta")
+    contraseñaingr = input("Ingrese la contraseña nuevamente:")
