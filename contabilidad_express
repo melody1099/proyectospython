@@ -1,0 +1,20 @@
+IVA = 0.21
+n=(int(input("Ingrese la cantidad de facturas:")))
+total=0
+a=1
+while a <= n:
+    razon_social=input("Nombre o razon social del cliente:")
+    monto=float(input("Ingrese el monto a abonar:$ "))
+    print("Factura ingresada: ",razon_social,"Monto a abonar:$ ",monto)
+    total= total + monto
+    a= a+1
+
+importe_IVA=total * IVA
+
+print("Cantidad total de dinero recaudado: $",total)
+print("Importe de IVA :$",importe_IVA)
+
+if total > 100000:
+    print("El monto total acumulado supero los $100.000")
+else:
+    print ("El monto total NO supero los $100.000")
